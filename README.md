@@ -1,59 +1,56 @@
-# MicroFrontend
+# Angular Micro-Frontend Service
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.7.
+A modern, fast, and scalable Micro-Frontend application built with Angular 19. This project showcases advanced integration of React components within an Angular ecosystem, complex reactive forms powered by Angular Material, and out-of-the-box receipt printing functionality.
 
-## Development server
+## ✨ Features
 
-To start a local development server, run:
+- **Micro-Frontend Architecture:** Scalable setup designed to be consumed as a remote or stand as a host.
+- **Cross-Framework Integration:** Seamlessly renders React components (`ReactWrapperComponent`) inside the Angular component tree.
+- **Modern UI/UX:** Built with Angular Material featuring dynamic, glass-morphic, and gradient-styled components.
+- **Print Functionality:** Integrated `ngx-print` for beautiful and accurate generation of physical/PDF payment receipts.
+- **Up-to-Date Stack:** Powered by Angular 19, TypeScript, and RxJS.
 
+## 🚀 Getting Started
+
+### Prerequisites
+Make sure you have [Node.js](https://nodejs.org/) (v18 or higher) and the Angular CLI installed.
 ```bash
-ng serve
+npm install -g @angular/cli
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+### Installation
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
+1. Clone the repository:
 ```bash
-ng generate component component-name
+git clone https://github.com/RohitKmwt152/micro-frontend-app.git
+cd micro-frontend-app
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
+2. Install dependencies:
 ```bash
-ng generate --help
+npm install
 ```
 
-## Building
-
-To build the project run:
-
+3. Start the development server:
 ```bash
-ng build
+npm run start
 ```
+Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+## 🛠 Tech Stack
 
-## Running unit tests
+* **Framework:** Angular 19
+* **UI Library:** Angular Material
+* **Printing:** ngx-print
+* **Multi-framework:** React DOM 
+* **Styling:** SCSS, custom modern CSS variables/gradients
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+## 📜 Scripts 
 
-```bash
-ng test
-```
+- `npm run start` - Runs the app locally
+- `npm run build` - Builds the app for production to the `dist/` folder
+- `npm run test` - Executes the unit tests via Karma
 
-## Running end-to-end tests
+## 📄 License
 
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+This project is licensed under the MIT License - see the LICENSE file for details.
