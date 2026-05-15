@@ -1,0 +1,11 @@
+.app-container {
+  display: flex;
+}
+
+.content {
+  margin-left: 280px;
+  width: calc(100% - 280px);
+  min-height: 100vh;
+  padding: 16px;
+  overflow-x: hidden;
+}

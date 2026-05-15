@@ -1,0 +1,40 @@
+[
+    {
+        "moduleID": 1,
+        "moduleName": "Angular",
+        "children": [
+            {
+                "moduleID": 101,
+                "moduleName": "Form Print",
+                "route": "/print"
+            }
+        ]
+    },
+    {
+        "moduleID": 2,
+        "moduleName": "React",
+        "children": [
+            {
+                "moduleID": 201,
+                "moduleName": "To Do List",
+                "route": "/todo"
+            },
+            {
+                "moduleID": 202,
+                "moduleName": "Background Color Changer",
+                "route": "/bg-changer"
+            }
+        ]
+    },
+    {
+        "moduleID": 3,
+        "moduleName": "Vue",
+        "children": [
+            {
+                "moduleID": 301,
+                "moduleName": "Form Validation",
+                "route": "/form-validation"
+            }
+        ]
+    }
+]

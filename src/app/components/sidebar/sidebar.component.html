@@ -1,0 +1,19 @@
+<div class="sidebar" [@slideInOut]="menuState">
+  <div class="sidebar-header">
+    <h2 class="gradient-heading">Micro Frontend App</h2>
+  </div>
+
+  <mat-nav-list>
+    <div *ngFor="let item of menuItems">
+      <mat-list-item (click)="toggleSubMenu(item)">
+        <span matListItemTitle class="gradient-heading">{{item.moduleName}}</span>
+      </mat-list-item>
+      <div class="submenu" [@submenu]="expanded === item.moduleID ? 'visible' : 'hidden'">
+        <mat-list-item *ngFor="let subItem of item.children" class="sub-item" [routerLink]="[subItem.route]"
+          routerLinkActive="active-sub-item">
+          <span matListItemTitle class="sub-item-text gradient-heading">{{subItem.moduleName}}</span>
+        </mat-list-item>
+      </div>
+    </div>
+  </mat-nav-list>
+</div>
