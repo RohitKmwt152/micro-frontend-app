@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { environment } from '../../../../environment';
+import { environment } from '../../../environments/environment';
 
 @Component({
   selector: 'app-bg-changer',
@@ -8,6 +8,6 @@ import { environment } from '../../../../environment';
   styleUrl: './bg-changer.component.scss'
 })
 export class BgChangerComponent {
-  bgChangerUrl = "https://bgchanger-5xm.pages.dev/assets/remoteEntry.js"
+  bgChangerUrl = environment.remotes.bgChanger;
 
 }
