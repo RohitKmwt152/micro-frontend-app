@@ -7,5 +7,5 @@ import { environment } from '../../../../environment';
   styleUrl: './todo.component.scss'
 })
 export class TodoComponent {
-  toDoUrl = environment.remotes.todoApp;
+  toDoUrl = "https://todoapp-aiu.pages.dev/assets/remoteEntry.js";
 }

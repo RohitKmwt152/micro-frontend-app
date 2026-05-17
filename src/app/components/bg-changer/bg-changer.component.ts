@@ -8,6 +8,6 @@ import { environment } from '../../../../environment';
   styleUrl: './bg-changer.component.scss'
 })
 export class BgChangerComponent {
-  bgChangerUrl = environment.remotes.bgChanger;
+  bgChangerUrl = "https://bgchanger-5xm.pages.dev/assets/remoteEntry.js"
 
 }
