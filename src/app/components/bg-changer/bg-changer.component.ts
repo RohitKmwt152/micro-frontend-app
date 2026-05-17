@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { environment } from '../../../../environment';
 
 @Component({
   selector: 'app-bg-changer',
@@ -7,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrl: './bg-changer.component.scss'
 })
 export class BgChangerComponent {
+  bgChangerUrl = environment.remotes.bgChanger;
 
 }

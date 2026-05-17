@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import { environment } from '../../../../environment';
 @Component({
   selector: 'app-todo',
   standalone: false,
@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrl: './todo.component.scss'
 })
 export class TodoComponent {
-
+  toDoUrl = environment.remotes.todoApp;
 }
